@@ -2169,3 +2169,405 @@
 2026-09-22 12:23:25,598 root INFO Running API
 2026-09-22 12:23:25,635 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
 2026-09-22 12:23:26,174 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt
+2026-09-22 12:27:24,173 root INFO Running API
+2026-09-22 12:27:24,234 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
+2026-09-22 12:27:25,472 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt
+2026-09-22 12:27:26,457 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8008
+ * Running on http://192.168.1.157:8008
+2026-09-22 12:27:26,457 werkzeug INFO [33mPress CTRL+C to quit[0m
+2026-09-22 12:27:32,371 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,420 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,466 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,511 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,572 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,630 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,677 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,742 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,799 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,861 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,917 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:32,983 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:32] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,036 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,090 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,135 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,198 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,247 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,308 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,353 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,398 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,443 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,487 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,550 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,613 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,657 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,713 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,758 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,803 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,861 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,905 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:33,952 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:33] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:34,018 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:34] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:34,066 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:34] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:34,134 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:34] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:34,190 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:34] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:34,258 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:34] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:27:34,331 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:27:34] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:10,093 root INFO Running API
+2026-09-22 12:28:10,146 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
+2026-09-22 12:28:11,291 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt
+2026-09-22 12:28:12,209 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8003
+ * Running on http://192.168.1.157:8003
+2026-09-22 12:28:12,209 werkzeug INFO [33mPress CTRL+C to quit[0m
+2026-09-22 12:28:19,945 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,008 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,051 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,098 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,145 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,187 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,231 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,277 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,323 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,366 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,407 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,456 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,502 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,557 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,599 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,647 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,697 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,754 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,805 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,846 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,911 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,954 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:20,996 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:21,047 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:21] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:21,094 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:21] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:21,136 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:21] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:21,183 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:21] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:21,228 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:21] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:21,290 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:28:21] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:28:28,367 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:28:28] "GET / HTTP/1.1" 200 -
+2026-09-22 12:28:28,851 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:28:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-22 12:28:31,820 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:28:31] "[33mGET /docs HTTP/1.1[0m" 404 -
+2026-09-22 12:30:13,487 root INFO Running API
+2026-09-22 12:30:13,552 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
+2026-09-22 12:30:14,553 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt
+2026-09-22 12:30:15,487 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8003
+ * Running on http://192.168.1.157:8003
+2026-09-22 12:30:15,487 werkzeug INFO [33mPress CTRL+C to quit[0m
+2026-09-22 12:30:20,143 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:20] "[33mGET /docs HTTP/1.1[0m" 404 -
+2026-09-22 12:30:22,149 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:22] "[33mGET /docs HTTP/1.1[0m" 404 -
+2026-09-22 12:30:22,636 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:22] "[33mGET /docs HTTP/1.1[0m" 404 -
+2026-09-22 12:30:22,807 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:22] "[33mGET /docs HTTP/1.1[0m" 404 -
+2026-09-22 12:30:24,882 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:24] "GET / HTTP/1.1" 200 -
+2026-09-22 12:30:34,666 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:34] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2026-09-22 12:30:34,759 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:34] "GET /apidocs/ HTTP/1.1" 200 -
+2026-09-22 12:30:34,883 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:34] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2026-09-22 12:30:34,883 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:34] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2026-09-22 12:30:34,885 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:34] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2026-09-22 12:30:34,885 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:34] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2026-09-22 12:30:35,556 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:35] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-09-22 12:30:35,585 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:30:35] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2026-09-22 12:31:19,255 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,321 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,369 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,418 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,464 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,530 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,585 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,643 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,690 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,737 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,797 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,844 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,891 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:19,943 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:19] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:31:20,014 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:31:20] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:37:31,294 root INFO Running API
+2026-09-22 12:37:31,360 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
+2026-09-22 12:37:32,386 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt
+2026-09-22 12:37:33,362 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8003
+ * Running on http://192.168.1.157:8003
+2026-09-22 12:37:33,362 werkzeug INFO [33mPress CTRL+C to quit[0m
+2026-09-22 12:37:39,676 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:37:39] "GET /apidocs/ HTTP/1.1" 200 -
+2026-09-22 12:37:39,785 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:37:39] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2026-09-22 12:37:39,805 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:37:39] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2026-09-22 12:37:39,806 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:37:39] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2026-09-22 12:37:39,807 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:37:39] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2026-09-22 12:37:40,018 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:37:40] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-09-22 12:37:40,058 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:37:40] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2026-09-22 12:37:48,606 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:37:48] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:17,156 root INFO Running API
+2026-09-22 12:48:17,214 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
+2026-09-22 12:48:18,180 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt
+2026-09-22 12:48:19,099 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8003
+ * Running on http://192.168.1.157:8003
+2026-09-22 12:48:19,100 werkzeug INFO [33mPress CTRL+C to quit[0m
+2026-09-22 12:48:25,888 werkzeug INFO 84.253.244.190 - - [22/Sep/2026 12:48:25] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:50,783 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:50] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:50,845 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:50] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:50,898 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:50] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:50,956 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:50] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,003 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,071 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,125 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,179 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,235 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,294 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,353 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,397 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,449 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,495 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,544 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,590 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,638 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,683 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,729 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,790 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,852 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,911 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:51,969 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,022 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,086 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,132 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,183 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,229 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,277 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,323 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,390 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,444 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,490 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,549 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,610 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,653 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,708 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,775 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,828 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,873 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,924 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:52,973 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,029 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,081 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,139 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,184 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,230 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,287 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,345 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,411 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,472 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,525 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,578 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,643 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,688 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,733 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,778 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,823 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,878 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,931 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:53,991 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,051 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,100 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,165 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,227 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,286 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,336 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,381 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,447 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,507 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,551 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,612 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,673 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,733 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,797 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,851 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,915 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:54,960 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:54] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,018 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,084 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,130 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,195 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,255 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,301 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,357 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,407 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,452 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,519 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,568 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,613 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,670 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,716 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,762 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,808 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,865 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,910 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,955 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:55,998 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:55] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,062 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,120 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,163 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,209 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,266 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,320 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,365 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,417 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,477 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,523 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,571 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,624 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,670 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,716 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,761 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,807 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,853 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,899 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:56,956 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:56] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,002 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,055 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,101 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,161 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,207 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,260 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,306 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,359 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,404 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,469 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,531 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,603 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,655 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,700 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,765 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,808 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,863 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,924 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:57,973 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:57] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,030 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,087 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,141 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,185 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,234 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,297 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,343 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,402 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,448 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,493 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,547 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,592 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,648 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,694 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,748 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,793 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,852 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,908 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,955 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:58,999 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:58] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,059 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,104 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,158 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,213 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,266 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,311 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,355 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,401 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,466 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,512 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,556 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,618 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,661 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,728 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,778 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,825 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,886 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,932 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:48:59,981 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:48:59] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,027 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,071 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,116 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,161 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,223 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,285 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,330 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,395 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,440 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,485 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,529 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,582 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,626 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,680 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,733 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,796 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,855 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,917 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:00,962 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:00] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:01,025 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:01] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:01,070 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:01] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:01,118 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:01] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:01,187 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 12:49:01] "POST /predict HTTP/1.1" 200 -
+2026-09-22 12:49:12,139 root INFO Running API
+2026-09-22 12:49:12,199 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
+2026-09-22 12:49:13,180 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt
+2026-09-22 12:49:14,122 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8003
+ * Running on http://192.168.1.157:8003
+2026-09-22 12:49:14,122 werkzeug INFO [33mPress CTRL+C to quit[0m
+2026-09-22 12:56:58,572 root INFO Running API
+2026-09-22 12:56:58,632 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
+2026-09-22 12:56:59,619 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt
+2026-09-22 12:57:00,585 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8003
+ * Running on http://192.168.1.157:8003
+2026-09-22 12:57:00,585 werkzeug INFO [33mPress CTRL+C to quit[0m
+2026-09-22 13:10:51,764 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:51,836 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:51,898 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:51,950 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:51] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,016 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,079 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,139 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,200 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,247 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,302 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,365 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,411 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,457 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,502 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,563 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,607 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,651 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,700 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,764 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,809 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,854 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,902 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:52,962 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:52] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,019 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,072 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,130 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,186 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,246 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,292 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,354 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,398 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,455 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,500 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,555 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,609 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,655 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,716 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,778 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,839 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,886 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:53,932 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:53] "POST /predict HTTP/1.1" 200 -
+2026-09-22 13:10:54,000 werkzeug INFO 127.0.0.1 - - [22/Sep/2026 13:10:54] "POST /predict HTTP/1.1" 200 -

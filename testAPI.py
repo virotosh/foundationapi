@@ -60,5 +60,5 @@ for idx in range(9,len(eda64)-512):
     print("status:", r.status_code)
     print("headers:", dict(r.headers))
     print("body:", r.text)
-    print(r)
+    #print(params)
     #time.sleep(1)

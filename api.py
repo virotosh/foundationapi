@@ -7,9 +7,8 @@ import json
 from typing import Dict, List, Union, Any
 from sklearn import preprocessing
 
-from fastapi import FastAPI, Request
-from fastapi.middleware.cors import CORSMiddleware
-import uvicorn
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 import logging
 logging.basicConfig(filename='api.txt',
@@ -22,15 +21,10 @@ logging.info("Running API")
 logger = logging.getLogger(__name__)
 
 
-app = FastAPI()
+app = Flask(__name__)
 
-# Add CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# Add CORS support (equivalent to the FastAPI CORSMiddleware config)
+CORS(app, resources={r"/*": {"origins": "*"}}, methods=["*"], allow_headers=["*"])
 
 # init model
 stress_ckpt = './data/epoch=199-step=3400.ckpt'
@@ -40,15 +34,38 @@ stressmodel.eval()
 mwmodel = LitSensorPT.load_from_checkpoint(mw_ckpt, map_location=torch.device("cpu"))
 mwmodel.eval()
 
-@app.get("/")
+
+@app.route("/", methods=["GET"])
 def read_root():
-    return {"Hello": "World"}
-    
-@app.post("/predict")
-async def get_probs(request: Request):
+    return jsonify({"Hello": "World"})
+
+
+@app.route("/health", methods=["GET"])
+def health_check():
+    """
+    Basic liveness/readiness check.
+    Confirms the process is up and that both models loaded successfully.
+    """
+    try:
+        models_ready = stressmodel is not None and mwmodel is not None
+        status = "ok" if models_ready else "degraded"
+        return jsonify({
+            "status": status,
+            "models_loaded": {
+                "stress": stressmodel is not None,
+                "mental_workload": mwmodel is not None,
+            }
+        }), 200 if models_ready else 503
+    except Exception as e:
+        logger.error("Health check failed: %s", repr(e))
+        return jsonify({"status": "error", "detail": str(e)}), 503
+
+
+@app.route("/predict", methods=["POST"])
+def get_probs():
     res = {}
     try:
-        _req = await request.json()
+        _req = request.get_json(force=True)
         #print(_req["empatica"])
         req = np.array(_req["empatica"], dtype="float32")
         test_dataset = torch.from_numpy(req)
@@ -60,21 +77,20 @@ async def get_probs(request: Request):
         mwprobs = mwlogit.detach().numpy()[0]
         #print(stressprobs)
         #res = dict(zip(["no stress","stress"], stressprobs))
-        res = dict(zip(["stress","mental_workload"], [round(stressprobs[1], 5),round(mwprobs[1],5) ] ))
+        res = dict(zip(["stress", "mental_workload"], [round(stressprobs[1], 5), round(mwprobs[1], 5)]))
     except Exception as e:
         print('%s', repr(e))
-    
+        logger.error("Predict failed: %s", repr(e))
+
     return json.dumps(str(res))
 
-if __name__=="__main__":
-    
-    
+
+if __name__ == "__main__":
+
     print('api intializing')
-    
-    uvicorn.run(
-        "api:app",
+
+    app.run(
         host="0.0.0.0",
         port=8003,
-        log_level="info",
-        reload=False,
+        debug=False,
     )

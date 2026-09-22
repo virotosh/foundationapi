@@ -52,9 +52,7 @@ checkpoints.
 
 ## Model checkpoints
 
-`api.py` loads two checkpoint files from a local `data/` folder, which is
-excluded from the repo via `.gitignore` (checkpoints are large binary files
-not meant for git):
+`api.py` loads two linear_prob checkpoint files from a local `data/` folder:
 
 ```python
 stress_ckpt = './data/epoch=199-step=3400.ckpt'
@@ -63,7 +61,7 @@ mw_ckpt = './data/epoch=199-step=1400.ckpt'
 
 `data/` also holds the pretrained foundation model checkpoint that
 `LitSensorPT` defaults to in `linear_prob.py` (used for fine-tuning /
-pretraining scripts rather than by `api.py` directly):
+pretraining scripts):
 
 ```python
 # linear_prob.py
@@ -73,7 +71,7 @@ def __init__(self, ckpt=f'./data/epoch=199-step=10800.ckpt'):
 Before running the API, create the folder and place all three files inside
 it:
 
-Download https://drive.google.com/drive/folders/1FBRzIAs4PRZZL_9DdqfPvMCn36fztzDc?usp=drive_link
+Download here https://drive.google.com/drive/folders/1FBRzIAs4PRZZL_9DdqfPvMCn36fztzDc?usp=drive_link
 
 ```bash
 mkdir -p data
@@ -82,10 +80,6 @@ mkdir -p data
 #   data/epoch=199-step=1400.ckpt    (mental workload model)
 #   data/epoch=199-step=10800.ckpt   (pretrained foundation model)
 ```
-
-The API will fail to start if either of the first two files is missing from
-`data/`; the foundation model checkpoint is only needed if you run
-`finetune.py` or `pretrain.py`.
 
 ## Running the API
 

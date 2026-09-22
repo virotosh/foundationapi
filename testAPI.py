@@ -2,7 +2,7 @@ import requests
 import json
 import numpy as np
 
-url = "http://193.166.24.186:8008/predict"
+url = "http://localhost:8008/predict"
 params = {"empatica":[[[ ],
        [ ],
        [ ],
@@ -10,10 +10,10 @@ params = {"empatica":[[[ ],
        [ ],
        [ ],
        [ ],
-       [ ],
-       [ ],
-       [ ],
-       [ ],
+#       [ ],
+#       [ ],
+#       [ ],
+#       [ ],
        ]]}    
 
 import time
@@ -52,10 +52,13 @@ for idx in range(9,len(eda64)-512):
     params["empatica"][0][4] =  df['hr'].tolist()[idx:idx+512]
     params["empatica"][0][5] =  eda64[idx:idx+512].tolist()
     params["empatica"][0][6] =  padding
-    params["empatica"][0][7] =  padding
-    params["empatica"][0][8] =  padding
-    params["empatica"][0][9] =  padding
-    params["empatica"][0][10] =  padding
+#    params["empatica"][0][7] =  padding
+#    params["empatica"][0][8] =  padding
+#    params["empatica"][0][9] =  padding
+#    params["empatica"][0][10] =  padding
     r=requests.post(url, json=params)
-    print(r.json())
+    print("status:", r.status_code)
+    print("headers:", dict(r.headers))
+    print("body:", r.text)
+    print(r)
     #time.sleep(1)

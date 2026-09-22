@@ -2157,3 +2157,9 @@
 2026-09-22 12:18:27,127 root INFO Running API
 2026-09-22 12:18:27,165 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
 2026-09-22 12:18:27,713 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt
+2026-09-22 12:22:01,105 root INFO Running API
+2026-09-22 12:22:01,167 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
+2026-09-22 12:22:02,182 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt
+2026-09-22 12:22:03,134 root INFO Running API
+2026-09-22 12:22:03,174 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=3400.ckpt
+2026-09-22 12:22:03,716 fsspec.local DEBUG open file: /home/ubuntu/foundationapi/data/epoch=199-step=1400.ckpt

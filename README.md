@@ -73,6 +73,8 @@ def __init__(self, ckpt=f'./data/epoch=199-step=10800.ckpt'):
 Before running the API, create the folder and place all three files inside
 it:
 
+Download https://drive.google.com/drive/folders/1FBRzIAs4PRZZL_9DdqfPvMCn36fztzDc?usp=drive_link
+
 ```bash
 mkdir -p data
 # copy/download the checkpoints into data/, so you end up with:

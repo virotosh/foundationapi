@@ -2,7 +2,7 @@ import requests
 import json
 import numpy as np
 
-url = "http://localhost:8008/predict"
+url = "http://localhost:8003/predict"
 params = {"empatica":[[[ ],
        [ ],
        [ ],
